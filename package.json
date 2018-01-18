@@ -1,0 +1,22 @@
+{
+  "name": "isofolio",
+  "version": "1.0.0",
+  "description": "Live link\r https://themasudrana.github.io/isofolio/",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theMasudRana/isofolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },  
+  "bugs": {
+    "url": "https://github.com/theMasudRana/isofolio/issues"
+  },
+  "homepage": "https://github.com/theMasudRana/isofolio#readme"
+}

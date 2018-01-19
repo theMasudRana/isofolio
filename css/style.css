@@ -2,3 +2,21 @@
 ul {
 	list-style: none;
 }
+
+
+/*Portfolio filter */
+
+.portfolio-wrapper li {
+  margin: 0 20px;
+}
+.portfolio-wrapper a {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #212529;
+  font-weight: 600;
+}
+.portfolio-wrapper a:hover {
+	text-decoration: none;
+	color: #007bff;
+}

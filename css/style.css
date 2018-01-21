@@ -1,22 +1,58 @@
 /*Isofolio*/
 ul {
 	list-style: none;
+	padding: 0;
 }
 
 
 /*Portfolio filter */
 
-.portfolio-wrapper li {
+.portfolio-filter li {
   margin: 0 20px;
 }
-.portfolio-wrapper a {
+.portfolio-filter a {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 2px;
   color: #212529;
   font-weight: 600;
 }
-.portfolio-wrapper a:hover {
+.portfolio-filter a:hover {
 	text-decoration: none;
 	color: #007bff;
 }
+
+
+/*Portfolio style*/
+.portfolio-1-column .portfolio-item {
+	width: 100%;
+}
+
+.portfolio-2-column .portfolio-item {
+	width: 50%;
+}
+.portfolio-3-column .portfolio-item {
+	width: 33.33334%;
+}
+.portfolio-4-column .portfolio-item {
+	width: 25%;
+}
+.portfolio-5-column .portfolio-item {
+	width: 20%;
+}
+
+/*Project Gutter settings*/
+.portfolio-gutter {
+	margin: 0 -15px;
+}
+.portfolio-gutter .portfolio-item {
+	padding: 0 15px;
+	margin-bottom: 30px;
+}
+
+
+.portfolio-thumbnail img {
+	width: 100%;
+}
+
+
